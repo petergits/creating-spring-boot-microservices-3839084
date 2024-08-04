@@ -10,7 +10,7 @@ public class TourManagementService {
 
     
     public TourManagementService(TourRepository tourRepository) {
-        this.tourRepository = tourRepository;
+        this.tourRepository = tourRepository;  
         createTour("Big Sur Retreat", 750, true);
         createTour( "Day Spa Package", 200, false);
         createTour("Monterey to SantaBarbara Tour", 550, false);
