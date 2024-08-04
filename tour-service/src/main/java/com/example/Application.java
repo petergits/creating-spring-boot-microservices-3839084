@@ -12,7 +12,7 @@ public class Application {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(Application.class.getPackageName());
         TravelAgentService agent = context.getBean(TravelAgentService.class);
-        TourManagementService srv = context.getBean(TourManagementService.class);
+        TourManagementService srv = context.getBean(TourManagementService.class);y
         srv.createTour("Zoo", 100, true); 
         System.out.println("\n******Explore California Tour Catalogue******");
         agent.displayTours();
